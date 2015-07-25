@@ -1,0 +1,6 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io('http://localhost:3000');
+
+  socket.emit('move', prompt("What is your move?"));
+</script>
